@@ -3,13 +3,18 @@
 :root {
   --background: #02010A;
   --normalText: #979DAC;
-  --importantText: #33415C;
+  --importantText: #6fffe9;
+
+  --sun: #dbaf0f;
+  --moon: #c3cde6;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-normalText: var(--normalText);
   --color-importantText: var(--importantText);
+  --color-sun: var(--sun);
+  --color-moon: var(--moon);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
