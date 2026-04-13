@@ -7,11 +7,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 export function NavHeader () {
     return (
         <>
-            <nav>
-                <div className='flex  mr-20 ml-20 mt-3 gap-5'>
+            <nav className='fixed top-0 w-full'>
+                <div className='flex mr-4 sm:mr-10 ml-10 mt-3 gap-5'>
                     <div className='flex mr-auto gap-10'>
-                        <h1 className='cursor-pointer'>Gabriel de Melo Ferreira</h1>
-                        <ul className='flex gap-2'>
+                        <h1 className='hidden sm:whitespace-nowrap sm:flex cursor-pointer'>Gabriel de Melo Ferreira</h1>
+                        <ul className='hidden sm:flex sm:gap-2'>
                             <li className='hover:text-importantText cursor-pointer'>Home</li>
                             <li className='hover:text-importantText cursor-pointer'>About</li>
                             <li className='hover:text-importantText cursor-pointer'>Experience</li>
