@@ -23,7 +23,7 @@ export default function About () {
         <>
             <div className='flex flex-col max-w-400 md:flex-row justify-center items- gap-8 min-h-screen px-4'>
                 <div className='flex flex-col gap-20 max-w-200 text-center md:text-left'>
-                    <h1 className='text-2xl font-bold text-boldText'>About</h1>
+                    <h1 className='text-5xl font-bold text-boldText'>About</h1>
                     <div className='flex flex-col gap-10 text-base/6'>
                         <div className=''>
                             I’m a software engineer based in São Paulo with a strong passion for identifying productivity bottlenecks in long and manual processes. 
@@ -34,6 +34,9 @@ export default function About () {
                             <ul className='columns-3 mt-3'>
                                 {stack_list}
                             </ul>
+                        </div>
+                        <div>
+                            In my free time, I enjoy developing games, studying pixel art, and playing MOBA and indie games.
                         </div>
                     </div>
 
