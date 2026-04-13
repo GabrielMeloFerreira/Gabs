@@ -5,6 +5,7 @@
   --background: #02010A;
   --normalText: #979DAC;
   --importantText: #6fffe9;
+  --boldText: #e5e5e5;
 
   --sun: #dbaf0f;
   --moon: #c3cde6;
@@ -14,6 +15,7 @@
   --color-background: var(--background);
   --color-normalText: var(--normalText);
   --color-importantText: var(--importantText);
+  --color-boldText: var(--boldText);
   --color-sun: var(--sun);
   --color-moon: var(--moon);
   --font-sans: var(--font-geist-sans);

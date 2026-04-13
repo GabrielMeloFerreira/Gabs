@@ -119,7 +119,7 @@ export default function ProfilePicture ({src}: ProfilePictureProps) {
                     </div>
                 </div>
                     
-                <div className='moon-wrapper absolute -bottom-3 sm:-bottom-3 md:-bottom-3 left-1/2 -translate-x-1/2'>
+                <div className='moon-wrapper absolute -bottom-3 sm:-bottom-5 md:-bottom-5 left-1/2 -translate-x-1/2'>
                     <div className='moon-inner relative bg-moon rounded-full h-5 w-5 sm:h-10 sm:w-10 md:h-10 md:w-10 shadow-[0_0_2em_0.5em_rgba(100,150,255,0.4)] overflow-hidden'>
                         <div className='absolute -right-2 top-0 h-full w-6 sm:w-10 md:w-10 rounded-full bg-black/40'></div>
                     </div>

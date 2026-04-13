@@ -7,7 +7,7 @@ import ProfileBorder from './ProfilePicture';
 export function Intro () {
     return (
     <>
-        <div className='flex flex-col md:flex-row justify-center items-center gap-8 min-h-screen px-4'>
+        <div className='flex flex-col md:flex-row max-w-400 justify-center items-center gap-8 min-h-screen px-4'>
             <ProfileBorder src={perfil}/>
             <div className='max-w-130 text-center md:text-left'>
                 <div className='text-xl sm:text-2xl md:text-3xl'>I Am Into
