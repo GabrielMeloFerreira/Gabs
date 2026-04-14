@@ -4,24 +4,25 @@ import { Next } from 'react-bootstrap/esm/PageItem';
 export default function About () {
 
     const stacks = [
-        "Javascript ES6+",
-        "Typescript",
+        "Javascript/Typescript",
+        "Java",
+        "C#",
+        "Python",
         "Tailwind",
         "React",
         "Next.js",
         "Node.js",
-        "Java",
-        "C#",
-        "Python",
+        "Power Plataform",
+        "n8n"
     ];
 
     const stack_list = stacks.map((stack, index) => (
-        <li className='before:content-["▹"] before:text-importantText before:pr-2' key={index}>{stack}</li>
+        <li className='before:content-["▹"] before:text-importantText before:pr-2 hover:text-importantText cursor-default' key={index}>{stack}</li>
     ));
 
     return (
         <>
-            <div className='flex flex-col max-w-400 md:flex-row justify-center items- gap-8 min-h-screen px-4'>
+            <div id='about' className='flex flex-col max-w-400 md:flex-row justify-center items- gap-8 min-h-screen px-4 scroll-mt-20'>
                 <div className='flex flex-col gap-20 max-w-200 text-center md:text-left'>
                     <h1 className='text-5xl font-bold text-boldText'>About</h1>
                     <div className='flex flex-col gap-10 text-base/6'>
@@ -36,7 +37,7 @@ export default function About () {
                             </ul>
                         </div>
                         <div>
-                            In my free time, I enjoy developing games, studying pixel art, and playing MOBA and indie games.
+                            In my free time, I enjoy developing games, studying pixel art, playing MOBA and indie games.
                         </div>
                     </div>
 
