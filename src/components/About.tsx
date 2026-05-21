@@ -22,7 +22,7 @@ export default function About () {
 
     return (
         <>
-            <div id='about' className='flex flex-col max-w-400 md:flex-row justify-center items- gap-8 min-h-screen px-4 scroll-mt-20'>
+            <div id='about' className='flex flex-col max-w md:flex-row justify-center items- gap-8 min-h-screen px-4 scroll-mt-20'>
                 <div className='flex flex-col gap-20 max-w-200 text-center md:text-left'>
                     <h1 className='text-5xl font-bold text-boldText'>About</h1>
                     <div className='flex flex-col gap-10 text-base/6'>
